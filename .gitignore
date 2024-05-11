@@ -1,0 +1,53 @@
+# Ignorar archivos de respaldo y temporales
+*~
+*.bak
+*.tmp
+
+# Ignorar archivos compilados y generados
+*.class
+*.jar
+*.war
+*.ear
+*.dll
+*.exe
+*.so
+
+# Ignorar directorios de dependencias y entornos virtuales
+/node_modules/
+/vendor/
+/.venv/
+
+# Ignorar archivos de configuración local
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos de registro y salida
+*.log
+*.out
+
+# Ignorar archivos de caché
+.cache/
+.cached/
+
+# Ignorar archivos de IDE y editores de texto
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar archivos de construcción y despliegue
+/build/
+/dist/
+/deploy/
+
+# Ignorar archivos sensibles
+secrets.txt
+credentials.json
+
+# Ignorar archivos de respaldo de bases de datos
+*.sql.bak
+*.db.bak
+*.db.backup
+# Ignorar node_modules
+/node_modules/
